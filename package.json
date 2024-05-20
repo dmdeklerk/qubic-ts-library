@@ -18,7 +18,8 @@
   "scripts": {
     "build": "tsc",
     "test": "jest",
-    "publish": "npm publish"
+    "publish": "npm publish",
+    "postinstall": "npm run build"
   },
   "devDependencies": {
     "@types/chai": "^4.3.9",
